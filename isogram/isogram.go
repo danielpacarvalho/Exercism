@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// IsIsogram checks wether or not a given word is an Isogram
 func IsIsogram(input string) bool {
 	if strings.Compare(input, "") == 0 {
 		return true
